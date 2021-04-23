@@ -1,6 +1,6 @@
 # Embedded C Programming Examples with Continuous Integration and Code Quality
 
-#Activity1
+## Activity1
 
 ## In Action
 

@@ -1,1 +1,0 @@
-@mainpage Activty1 by NikhilSai @subpage main.c

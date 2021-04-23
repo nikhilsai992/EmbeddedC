@@ -5,7 +5,7 @@
 ## In Action
 
 ### Passenger seated and turned on the heater
-![ON](simulation/SeatedHeaterOn.PNG)
+![ON](https://github.com/nikhilsai992/EmbeddedC/blob/5f16228ef20f4c354372532b5ee4b5701e387c44/simulation/SeatedHeaterOn.PNG)
 
 #### CI and Code Quality
 

@@ -1,0 +1,1 @@
+@mainpage EmbeddedProject by NikhilSai @subpage main.c

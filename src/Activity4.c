@@ -44,7 +44,7 @@ void USARTWriteChar(uint16_t temp )
        while(!(UCSR0A &(1<<UDRE0)));
        UDR0= data1[i];
        i++;
-       _delay_ms(20);
+       _delay_ms(100);
    }
    }
 
@@ -56,7 +56,7 @@ void USARTWriteChar(uint16_t temp )
        while(!(UCSR0A &(1<<UDRE0)));
        UDR0= data2[i];
        i++;
-       _delay_ms(20);
+       _delay_ms(100);
    }
    }
 
@@ -68,7 +68,7 @@ void USARTWriteChar(uint16_t temp )
        while(!(UCSR0A &(1<<UDRE0)));
        UDR0= data3[i];
        i++;
-       _delay_ms(20);
+       _delay_ms(100);
    }
    }
 
@@ -80,7 +80,7 @@ void USARTWriteChar(uint16_t temp )
        while(!(UCSR0A &(1<<UDRE0)));
        UDR0= data4[i];
        i++;
-       _delay_ms(20);
+       _delay_ms(100);
    }
    }
 }

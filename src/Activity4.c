@@ -36,7 +36,7 @@ void USARTinit(uint16_t ubrr_value)
 
 void USARTWriteChar(uint16_t temp )
 {  int i;
-   if(temp>=0 && temp<=200)
+   if(temp<=200)
    {
    unsigned char data1[]= "20 degree C\n";
    i=0;

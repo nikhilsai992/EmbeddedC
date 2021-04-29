@@ -15,6 +15,7 @@
 ### Displaying the temperature as PWM waveform
 
 |ADC value(Temperature sensor)|Output PWM (duty cycle)|
+|:--:|:--:|
 | 0 -200 | 20% - 20°C|
 | 210 -2500 | 40% - 25°C|
 | 510 -700 | 70% - 29°C|

@@ -1,11 +1,27 @@
-# Embedded C Programming Examples with Continuous Integration and Code Quality
+# Embedded C Programming  with Continuous Integration and Code Quality
 
 ## Activity1
 
-## In Action
+
 
 ### Passenger seated and turned on the heater
-![ON](https://github.com/nikhilsai992/EmbeddedC/blob/5f16228ef20f4c354372532b5ee4b5701e387c44/simulation/SeatedHeaterOn.PNG)
+![LED ON](https://github.com/nikhilsai992/EmbeddedC/blob/0e56bf5605cec12f74b6b89ea55c68632b69d08a/simulation/Activtiy1.PNG)
+
+## Activity2
+### Adjusting the temperature using temperature sensor
+![ADC CONVERSION](https://github.com/nikhilsai992/EmbeddedC/blob/0e56bf5605cec12f74b6b89ea55c68632b69d08a/simulation/Activity2.PNG)
+
+### Activity3
+### Displaying the temperature as PWM waveform
+
+|ADC value(Temperature sensor)|Output PWM (duty cycle)|
+| 0 -200 | 20% - 20°C|
+| 210 -2500 | 40% - 25°C|
+| 510 -700 | 70% - 29°C|
+| 710 -1024 | 95% - 33°C|
+
+![PWM Waveform](https://github.com/nikhilsai992/EmbeddedC/blob/0e56bf5605cec12f74b6b89ea55c68632b69d08a/simulation/Activity3.PNG)
+
 
 #### CI and Code Quality
 

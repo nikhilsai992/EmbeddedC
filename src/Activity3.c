@@ -29,7 +29,7 @@ void timer0()
  */
 void displayWave(uint16_t temp)
 {
-    if(temp>=0 && temp <=200)
+    if(temp <=200)
          OCR0A=51;
     else if(temp>=210 && temp <=500)
          OCR0A=102;

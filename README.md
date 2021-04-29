@@ -33,4 +33,5 @@
 
 |Build|Cppcheck|Codacy|
 |:--:|:--:|:--:|
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ec34bca20b7f4c12995f8e129dd77453)](https://app.codacy.com/gh/nikhilsai992/EmbeddedC?utm_source=github.com&utm_medium=referral&utm_content=nikhilsai992/EmbeddedC&utm_campaign=Badge_Grade_Settings)
 |[![Compile-Linux](https://github.com/nikhilsai992/EmbeddedC/actions/workflows/compile.yml/badge.svg)](https://github.com/nikhilsai992/EmbeddedC/actions/workflows/compile.yml)|[![Cppcheck](https://github.com/nikhilsai992/EmbeddedC/actions/workflows/CodeQuality.yml/badge.svg)](https://github.com/nikhilsai992/EmbeddedC/actions/workflows/CodeQuality.yml)|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/0bf5e0df2e3c40e2a0e7ba740b452f26)](https://www.codacy.com/gh/nikhilsai992/EmbeddedC/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=nikhilsai992/EmbeddedC&amp;utm_campaign=Badge_Grade)|

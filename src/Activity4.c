@@ -44,7 +44,7 @@ void USARTWriteChar(uint16_t temp )
        while(!(UCSR0A &(1<<UDRE0)));
        UDR0= data1[i];
        i++;
-       _delay_ms(2000);
+       _delay_ms(20);
    }
    }
 
@@ -56,7 +56,7 @@ void USARTWriteChar(uint16_t temp )
        while(!(UCSR0A &(1<<UDRE0)));
        UDR0= data2[i];
        i++;
-       _delay_ms(2000);
+       _delay_ms(20);
    }
    }
 
@@ -68,19 +68,19 @@ void USARTWriteChar(uint16_t temp )
        while(!(UCSR0A &(1<<UDRE0)));
        UDR0= data3[i];
        i++;
-       _delay_ms(2000);
+       _delay_ms(20);
    }
    }
 
     else if(temp>=710 && temp<=1024)
    {
-   unsigned char data3[]= "33 degree C\n";
+   unsigned char data4[]= "33 degree C\n";
    i=0;
-   while(data3[i]!=0){
+   while(data4[i]!=0){
        while(!(UCSR0A &(1<<UDRE0)));
-       UDR0= data3[i];
+       UDR0= data4[i];
        i++;
-       _delay_ms(2000);
+       _delay_ms(20);
    }
    }
 }

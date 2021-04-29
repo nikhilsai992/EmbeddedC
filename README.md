@@ -25,7 +25,7 @@
 ![PWM Waveform](https://github.com/nikhilsai992/EmbeddedC/blob/0e56bf5605cec12f74b6b89ea55c68632b69d08a/simulation/Activity3.PNG)
 
 ## Activity4
-### Displaying the temperature on serial monitor using USART 
+### Displaying the temperature on the serial monitor using USART 
 ![Serial Monitor Values](https://github.com/nikhilsai992/EmbeddedC/blob/06ee403f7e66d687d225c8e6f7d7438a888cf33b/simulation/Activity4.PNG)
 
 

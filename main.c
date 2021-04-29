@@ -13,6 +13,7 @@
 #include<util/delay.h>
 #include<Activity1.h>
 #include<Activity2.h>
+#include<Activity3.h>
 #include<stdint.h>
 
 
@@ -26,7 +27,7 @@ int main(void)
    */
 initializeports();
 /**
-     * @brief Initialize Portc for ADC 
+     * @brief Initialize PortC for ADC 
      * 
      */
  initializeADC();
@@ -43,15 +44,29 @@ initializeports();
          PORTB |= (1<<PB0);
         _delay_ms(20);
          /**
-       * @brief To convert anlog signal to Digital values
+       * @brief Convert anlog signal to Digital values
        * 
        */
         temp= ReadADC(0);
         
         _delay_ms(200);
+       /**
+        * @brief Initialize timer0
+        * 
+        */
+
+        timer0();
+      /**
+       * @brief Display waveform indicating temperature
+       * 
+       */
+
+        displayWave(temp);
+
+        
       }
       else /**
-       * @brief SWitch of the LED in any other scenario
+       * @brief Switch of the LED in any other scenario
        * 
        */
         {PORTB &= ~(1<<PB0);
@@ -62,3 +77,4 @@ initializeports();
    
   return 0;
 }
+

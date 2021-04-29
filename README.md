@@ -9,7 +9,7 @@
 
 ## Activity2
 ### Adjusting the temperature using temperature sensor
-![ADC COnversion](https://github.com/nikhilsai992/EmbeddedC/blob/0e56bf5605cec12f74b6b89ea55c68632b69d08a/simulation/Activity2.PNG)
+![ADC Conversion](https://github.com/nikhilsai992/EmbeddedC/blob/0e56bf5605cec12f74b6b89ea55c68632b69d08a/simulation/Activity2.PNG)
 
 ## Activity3
 ### Displaying the temperature as PWM waveform

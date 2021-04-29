@@ -52,7 +52,7 @@ while(1)
         * @brief 
         * 
         */
-        _delay_ms(2000);
+        
         timer0();/**
         * @brief Initialize timer0
         * 
